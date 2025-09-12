@@ -1,0 +1,74 @@
+body {
+    background: url(https://i.pinimg.com/1200x/33/0e/1f/330e1f37d6263964665ce8e7dd01e7dc.jpg) no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.Login-Container {
+    background: rgba(0, 0, 0, 0.6);  
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    padding: 40px;
+    border-radius: 15px;
+    width: 350px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.LoginText h1 {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-box label {
+    display:block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.Loginbutton button {
+    width: 100%;
+    padding: 12px;
+    background: #ba1816;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.Loginbutton button:hover {
+    background-color: #ff0000;
+}
+
+.signup {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-text a {
+    color: #83201e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-text a:hover {
+    color: #f40400;
+    text-decoration: underline;
+}
